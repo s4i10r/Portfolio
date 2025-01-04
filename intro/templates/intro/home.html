@@ -4,10 +4,28 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Über mich</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Birthstone&family=Caladea:ital,wght@0,400;0,700;1,400;1,700&family=Cinzel:wght@400..900&family=Corinthia:wght@400;700&family=Scheherazade+New:wght@400;500;600;700&family=Tiny5&display=swap" rel="stylesheet">
+
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'intro/css/style.css' %}">
 </head>
+
 <body>
-    <h1>Willkommen</h1>
-    <p>Mein Name ist Mohamed, danke für deinen Besuch!</p>
-    <p>Ich bin ein IT-Enthusiast und Tüftler!</p>
+
+
+<div class="content">
+    <div class="namebox">
+        <h1 class="name">Mohamed Yazidi</h1>
+    </div>
+    <div class="socials">
+        <a href="https://github.com/s4i10r">
+            <img src="{% static 'intro/assets/github-mark-white.svg' %}" alt="github logo (link)">
+        </a>
+    </div>
+</div>
+
 </body>
 </html>
